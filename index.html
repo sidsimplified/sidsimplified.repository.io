@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaurya Web Task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+      <img src="shaurya.jpg" alt="shaurya bg img" class="bg_img">
+    </div>
+    <div class="header">
+        <img class="slogo" src="slogo.jpg" alt="logo">
+        <h1><b>Shaurya'2k23 Registration Form</b></h1>
+    </div>
+    
+    <div class="form">
+        <form action="/action.php">
+            <div class="name">
+              <label for="name">Enter you Name:</label>
+              <input type="text" placeholder="Full Name" id="name" minlength="5"> <!--min length 5-->
+            </div>
+            <div class="name">
+                <label for="name">Email:</label>
+                <input type="email" placeholder="Email" id="name" >
+            </div>
+            <div class="name"> <label for="name">Password:</label>
+                <input type="password" id="name"></div>
+            <div class="name"><label for="name">Phone Number:</label>
+                <input type="number" id="name"></div>
+            
+            <div class="gender"><span class="">Gender</span><br>
+                  <input type="radio" id="male" name="gender" value="Male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="Female">
+                  <label for="female">Female</label><br>
+                  <input type="radio" id="others" name="gender" value="others">
+                  <label for="others">Others</label>
+            </div>
+            <div class="name">
+            <label for="sports" aria-placeholder="Choose your Sport">Choose your Sport:
+               <select id="sports">
+                <option value="Cricket">Cricket</option>
+                <option value="Football">Football</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Squash">Squash</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Athletics">Athletics</option>
+              </select>
+            </label>
+            </div>
+            <div class="name"><input type="checkbox" name="check" value="check">
+                <label for="check">Ready to Show your Sporty Skills</label><br></div>
+            
+        </form>
+        <button class="submit">Submit</button>
+        <div class="icons"><i class="fa-solid fa-table-tennis-paddle-ball"></i>
+            <i class="fa-solid fa-person-swimming"></i>
+            <i class="fa-solid fa-baseball-bat-ball"></i>
+            <i class="fa-solid fa-person-biking"></i></div>
+        
+    </div>
+    
+</body>
+</html>
